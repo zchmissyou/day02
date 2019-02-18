@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
+           version="3.1">
+
+
+<servlet>
+<servlet-name>HelloServlet</servlet-name>
+<servlet-class>HelloServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>HelloServlet</servlet-name>
+<url-pattern>/hello</url-pattern>
+</servlet-mapping>
+    <servlet>
+        <servlet-name>ServletDemo1</servlet-name>
+        <servlet-class>ServletDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo1 </servlet-name>
+        <url-pattern>/haha</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletDemo2</servlet-name>
+        <servlet-class>ServletDemo2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDemo2</servlet-name>
+        <url-pattern>/ha</url-pattern>
+    </servlet-mapping>
+</web-app>
