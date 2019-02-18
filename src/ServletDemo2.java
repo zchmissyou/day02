@@ -12,7 +12,7 @@ public class ServletDemo2 extends HttpServlet{
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("处理post请求提交的数据......");
+        System.out.println("处理post请求提交的数据......我是你大爷");
     }
 
 
